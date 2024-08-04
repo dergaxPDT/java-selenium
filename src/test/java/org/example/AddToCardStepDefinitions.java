@@ -48,6 +48,6 @@ public class AddToCardStepDefinitions {
     public void i_should_check_the_values_of_Smartwatch() {
         Assert.assertEquals(SummaryCardPage.priceOnStart, SmartWatchInfoPage.priceOnStart);
         Assert.assertEquals(SummaryCardPage.monthlyInstallment, SmartWatchInfoPage.monthlyInstallment);
+        Assert.assertTrue(2 < ListSmartWatchPage.sizeListWatches);
     }
 }
-
